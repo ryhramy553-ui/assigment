@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+ 
+}
+
+ 
+/* -------------------------- */
+@media screen and (max-width: 600px) {
+   
+    nav .container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    header .layout h1{
+      font-size: 40px;  
+    }
+    #about .container{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-txt,.about-img{
+        width: 100%;
+    }
+    .about-img .about-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #contact .container{
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    #contact .container .cont-form,.cont-txt{
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+}
